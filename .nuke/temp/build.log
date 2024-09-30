@@ -1,0 +1,396 @@
+10:03:57.544 | V |                      | ArgumentsFromParametersFile.OnBuildCreated (150)
+10:03:57.568 | V |                      | HandleReSharperSurrogateArguments.OnBuildCreated (150)
+10:03:57.569 | V |                      | InjectParameterValues.OnBuildCreated (100)
+10:03:57.599 | V |                      | HandleShellCompletion.OnBuildCreated (75)
+10:03:58.009 | V |                      | GenerateBuildServerConfigurations.OnBuildCreated (50)
+10:03:58.010 | V |                      | InvokeBuildServerConfigurationGeneration.OnBuildCreated (45)
+10:03:58.025 | V |                      | UpdateNotification.OnBuildCreated (10)
+10:03:58.025 | V |                      | UnsetVisualStudioEnvironmentVariables.OnBuildCreated (0)
+10:03:58.026 | V |                      | HandleVisualStudioDebugging.OnBuildCreated (0)
+10:03:58.027 | V |                      | EventInvoker.OnBuildCreated (-3.4028235E+38)
+10:03:58.055 | V |                      | HandlePlanRequests.OnBuildInitialized (10)
+10:03:58.056 | V |                      | HandleHelpRequests.OnBuildInitialized (5)
+10:03:58.056 | V |                      | Telemetry.OnBuildInitialized (0)
+10:03:58.564 | V |                      | Sending BuildStarted telemetry event ...
+10:03:58.567 | V |                      |   build_components         = 
+10:03:58.567 | V |                      |   build_type               = Project
+10:03:58.567 | V |                      |   compile_time             = 6
+10:03:58.567 | V |                      |   config_generators        = 
+10:03:58.567 | V |                      |   host                     = VSCode
+10:03:58.567 | V |                      |   num_custom_components    = 0
+10:03:58.567 | V |                      |   num_custom_extensions    = 0
+10:03:58.567 | V |                      |   num_partitioned_targets  = 0
+10:03:58.567 | V |                      |   num_secrets              = 0
+10:03:58.567 | V |                      |   num_targets              = 4
+10:03:58.567 | V |                      |   os_architecture          = X64
+10:03:58.567 | V |                      |   os_platform              = Linux
+10:03:58.567 | V |                      |   target_framework         = .NETCoreApp,Version=v8.0
+10:03:58.567 | V |                      |   version_dotnet_sdk       = 8.0.108
+10:03:58.567 | V |                      |   version_nuke_common      = 8.1.0
+10:03:58.567 | V |                      |   version_nuke_global_tool = 8.1.0
+10:03:59.779 | V |                      | InjectNonParameterValues.OnBuildInitialized (-100)
+10:03:59.808 | V |                      | EventInvoker.OnBuildInitialized (-3.4028235E+38)
+10:03:59.819 | V | Clean                | EventInvoker.OnTargetRunning (-3.4028235E+38)
+10:03:59.841 | I | Clean                | > /usr/bin/dotnet clean /home/marlon/my-projects/dotNet/solution/GamesApiProject.sln
+10:03:59.849 | V | Clean                | @ /home/marlon/my-projects/dotNet/solution
+10:04:00.013 | D | Clean                | MSBuild version 17.8.5+b5265ef37 for .NET
+10:04:00.082 | D | Clean                | Build started 9/27/2024 10:04:00 AM.
+10:04:00.271 | D | Clean                |      1>Project "/home/marlon/my-projects/dotNet/solution/GamesApiProject.sln" on node 1 (Clean target(s)).
+10:04:00.271 | D | Clean                |      1>ValidateSolutionConfiguration:
+10:04:00.272 | D | Clean                |          Building solution configuration "Debug|Any CPU".
+10:04:00.272 | D | Clean                |        ValidateProjects:
+10:04:00.272 | D | Clean                |          The project "games-api-project" is not selected for building in solution configuration "Debug|Any CPU".
+10:04:00.638 | D | Clean                |      1>Project "/home/marlon/my-projects/dotNet/solution/GamesApiProject.sln" (1) is building "/home/marlon/my-projects/dotNet/solution/games-api.Tests/games-api.Tests.csproj" (2) on node 1 (Clean target(s)).
+10:04:00.638 | D | Clean                |      2>CoreClean:
+10:04:00.639 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/CoverletSourceRootsMapping_games-api.Tests".
+10:04:00.641 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/games-api.deps.json".
+10:04:00.642 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/games-api.runtimeconfig.json".
+10:04:00.642 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/publish/web.config".
+10:04:00.642 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/appsettings.Development.json".
+10:04:00.642 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/appsettings.json".
+10:04:00.643 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/publish/appsettings.Development.json".
+10:04:00.643 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/publish/appsettings.json".
+10:04:00.643 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/publish/games-api.deps.json".
+10:04:00.643 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/publish/games-api.runtimeconfig.json".
+10:04:00.643 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/games-api".
+10:04:00.643 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll".
+10:04:00.643 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/xunit.runner.reporters.netcoreapp10.dll".
+10:04:00.644 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/xunit.runner.utility.netcoreapp10.dll".
+10:04:00.644 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/games-api.Tests.deps.json".
+10:04:00.644 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/games-api.Tests.runtimeconfig.json".
+10:04:00.644 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/games-api.Tests.dll".
+10:04:00.644 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/games-api.Tests.pdb".
+10:04:00.645 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Aspire.Npgsql.EntityFrameworkCore.PostgreSQL.dll".
+10:04:00.645 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/BCrypt.Net-Next.dll".
+10:04:00.645 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll".
+10:04:00.645 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll".
+10:04:00.645 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll".
+10:04:00.645 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.Data.Sqlite.dll".
+10:04:00.645 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll".
+10:04:00.646 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll".
+10:04:00.646 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll".
+10:04:00.646 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Sqlite.dll".
+10:04:00.646 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Binder.dll".
+10:04:00.646 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll".
+10:04:00.646 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll".
+10:04:00.646 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll".
+10:04:00.646 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll".
+10:04:00.646 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll".
+10:04:00.646 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll".
+10:04:00.646 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.Extensions.Options.dll".
+10:04:00.646 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll".
+10:04:00.647 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll".
+10:04:00.649 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll".
+10:04:00.649 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll".
+10:04:00.649 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll".
+10:04:00.649 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll".
+10:04:00.649 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.OpenApi.dll".
+10:04:00.649 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.TestPlatform.CoreUtilities.dll".
+10:04:00.649 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.TestPlatform.PlatformAbstractions.dll".
+10:04:00.649 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll".
+10:04:00.649 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.TestPlatform.CommunicationUtilities.dll".
+10:04:00.650 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.TestPlatform.CrossPlatEngine.dll".
+10:04:00.650 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.TestPlatform.Utilities.dll".
+10:04:00.650 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Microsoft.VisualStudio.TestPlatform.Common.dll".
+10:04:00.650 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/testhost.dll".
+10:04:00.650 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Newtonsoft.Json.dll".
+10:04:00.650 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Npgsql.dll".
+10:04:00.650 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Npgsql.DependencyInjection.dll".
+10:04:00.651 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll".
+10:04:00.651 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Npgsql.OpenTelemetry.dll".
+10:04:00.651 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/NuGet.Frameworks.dll".
+10:04:00.651 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/OpenTelemetry.dll".
+10:04:00.651 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/OpenTelemetry.Api.dll".
+10:04:00.651 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll".
+10:04:00.651 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/OpenTelemetry.Extensions.Hosting.dll".
+10:04:00.651 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/SQLitePCLRaw.batteries_v2.dll".
+10:04:00.652 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/SQLitePCLRaw.core.dll".
+10:04:00.652 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/SQLitePCLRaw.provider.e_sqlite3.dll".
+10:04:00.652 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll".
+10:04:00.652 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll".
+10:04:00.652 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll".
+10:04:00.652 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll".
+10:04:00.652 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/xunit.abstractions.dll".
+10:04:00.652 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/xunit.assert.dll".
+10:04:00.652 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/xunit.core.dll".
+10:04:00.652 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/xunit.execution.dotnet.dll".
+10:04:00.652 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll".
+10:04:00.652 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll".
+10:04:00.652 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll".
+10:04:00.652 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll".
+10:04:00.652 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll".
+10:04:00.652 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll".
+10:04:00.652 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll".
+10:04:00.652 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll".
+10:04:00.653 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll".
+10:04:00.653 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll".
+10:04:00.653 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll".
+10:04:00.653 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll".
+10:04:00.653 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll".
+10:04:00.653 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll".
+10:04:00.653 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll".
+10:04:00.653 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll".
+10:04:00.653 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll".
+10:04:00.653 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll".
+10:04:00.655 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll".
+10:04:00.655 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll".
+10:04:00.655 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll".
+10:04:00.655 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll".
+10:04:00.655 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll".
+10:04:00.655 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll".
+10:04:00.655 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll".
+10:04:00.655 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll".
+10:04:00.655 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll".
+10:04:00.655 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll".
+10:04:00.655 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll".
+10:04:00.655 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll".
+10:04:00.656 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll".
+10:04:00.656 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll".
+10:04:00.656 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll".
+10:04:00.656 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll".
+10:04:00.656 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll".
+10:04:00.656 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll".
+10:04:00.656 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll".
+10:04:00.656 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll".
+10:04:00.656 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll".
+10:04:00.656 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll".
+10:04:00.656 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll".
+10:04:00.656 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll".
+10:04:00.656 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll".
+10:04:00.656 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll".
+10:04:00.657 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll".
+10:04:00.657 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll".
+10:04:00.657 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll".
+10:04:00.657 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll".
+10:04:00.657 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll".
+10:04:00.657 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll".
+10:04:00.657 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll".
+10:04:00.657 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll".
+10:04:00.657 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll".
+10:04:00.657 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll".
+10:04:00.657 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll".
+10:04:00.657 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll".
+10:04:00.658 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll".
+10:04:00.658 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll".
+10:04:00.658 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll".
+10:04:00.658 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll".
+10:04:00.658 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll".
+10:04:00.658 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll".
+10:04:00.658 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll".
+10:04:00.658 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll".
+10:04:00.691 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll".
+10:04:00.691 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/browser-wasm/nativeassets/net8.0/e_sqlite3.a".
+10:04:00.691 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/linux-arm/native/libe_sqlite3.so".
+10:04:00.691 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/linux-arm64/native/libe_sqlite3.so".
+10:04:00.691 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/linux-armel/native/libe_sqlite3.so".
+10:04:00.691 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/linux-mips64/native/libe_sqlite3.so".
+10:04:00.691 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/linux-musl-arm/native/libe_sqlite3.so".
+10:04:00.691 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so".
+10:04:00.692 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libe_sqlite3.so".
+10:04:00.692 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/linux-ppc64le/native/libe_sqlite3.so".
+10:04:00.692 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/linux-s390x/native/libe_sqlite3.so".
+10:04:00.692 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/linux-x64/native/libe_sqlite3.so".
+10:04:00.692 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/linux-x86/native/libe_sqlite3.so".
+10:04:00.692 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib".
+10:04:00.692 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib".
+10:04:00.692 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/osx-arm64/native/libe_sqlite3.dylib".
+10:04:00.692 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/osx-x64/native/libe_sqlite3.dylib".
+10:04:00.692 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/win-arm/native/e_sqlite3.dll".
+10:04:00.692 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/win-arm64/native/e_sqlite3.dll".
+10:04:00.692 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/win-x64/native/e_sqlite3.dll".
+10:04:00.692 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/runtimes/win-x86/native/e_sqlite3.dll".
+10:04:00.692 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/games-api.dll".
+10:04:00.692 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/bin/Debug/net8.0/games-api.pdb".
+10:04:00.692 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/obj/Debug/net8.0/games-api.Tests.csproj.AssemblyReference.cache".
+10:04:00.692 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/obj/Debug/net8.0/games-api.Tests.GeneratedMSBuildEditorConfig.editorconfig".
+10:04:00.693 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/obj/Debug/net8.0/games-api.Tests.AssemblyInfoInputs.cache".
+10:04:00.693 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/obj/Debug/net8.0/games-api.Tests.AssemblyInfo.cs".
+10:04:00.693 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/obj/Debug/net8.0/games-api.Tests.csproj.CoreCompileInputs.cache".
+10:04:00.693 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/obj/Debug/net8.0/games-api.Tests.csproj.CopyComplete".
+10:04:00.693 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/obj/Debug/net8.0/games-api.Tests.dll".
+10:04:00.693 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/obj/Debug/net8.0/refint/games-api.Tests.dll".
+10:04:00.693 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/obj/Debug/net8.0/games-api.Tests.pdb".
+10:04:00.693 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/obj/Debug/net8.0/games-api.Tests.genruntimeconfig.cache".
+10:04:00.693 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api.Tests/obj/Debug/net8.0/ref/games-api.Tests.dll".
+10:04:01.110 | D | Clean                |      1>Project "/home/marlon/my-projects/dotNet/solution/GamesApiProject.sln" (1) is building "/home/marlon/my-projects/dotNet/solution/games-api/games-api.csproj" (3) on node 2 (Clean target(s)).
+10:04:01.111 | D | Clean                |      3>CoreClean:
+10:04:01.111 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/appsettings.Development.json".
+10:04:01.115 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/appsettings.json".
+10:04:01.115 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/publish/web.config".
+10:04:01.115 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/publish/appsettings.Development.json".
+10:04:01.115 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/publish/appsettings.json".
+10:04:01.115 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/publish/games-api.deps.json".
+10:04:01.115 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/publish/games-api.runtimeconfig.json".
+10:04:01.115 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/games-api".
+10:04:01.115 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/games-api.deps.json".
+10:04:01.115 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/games-api.runtimeconfig.json".
+10:04:01.115 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/games-api.dll".
+10:04:01.115 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/games-api.pdb".
+10:04:01.115 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Aspire.Npgsql.EntityFrameworkCore.PostgreSQL.dll".
+10:04:01.115 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/BCrypt.Net-Next.dll".
+10:04:01.115 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Humanizer.dll".
+10:04:01.116 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll".
+10:04:01.116 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll".
+10:04:01.116 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll".
+10:04:01.116 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll".
+10:04:01.116 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll".
+10:04:01.116 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll".
+10:04:01.122 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll".
+10:04:01.123 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll".
+10:04:01.123 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll".
+10:04:01.123 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll".
+10:04:01.123 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll".
+10:04:01.123 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Binder.dll".
+10:04:01.123 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll".
+10:04:01.123 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll".
+10:04:01.123 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll".
+10:04:01.123 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll".
+10:04:01.123 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll".
+10:04:01.123 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll".
+10:04:01.123 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.Extensions.Options.dll".
+10:04:01.124 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll".
+10:04:01.124 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll".
+10:04:01.124 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll".
+10:04:01.124 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll".
+10:04:01.124 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll".
+10:04:01.124 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll".
+10:04:01.124 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Microsoft.OpenApi.dll".
+10:04:01.124 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Mono.TextTemplating.dll".
+10:04:01.124 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Npgsql.dll".
+10:04:01.124 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Npgsql.DependencyInjection.dll".
+10:04:01.124 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll".
+10:04:01.124 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Npgsql.OpenTelemetry.dll".
+10:04:01.124 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/OpenTelemetry.dll".
+10:04:01.124 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/OpenTelemetry.Api.dll".
+10:04:01.124 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll".
+10:04:01.124 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/OpenTelemetry.Extensions.Hosting.dll".
+10:04:01.125 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll".
+10:04:01.125 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll".
+10:04:01.125 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll".
+10:04:01.127 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/System.CodeDom.dll".
+10:04:01.127 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/System.Composition.AttributedModel.dll".
+10:04:01.127 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/System.Composition.Convention.dll".
+10:04:01.127 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/System.Composition.Hosting.dll".
+10:04:01.127 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/System.Composition.Runtime.dll".
+10:04:01.128 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/System.Composition.TypedParts.dll".
+10:04:01.128 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll".
+10:04:01.128 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll".
+10:04:01.129 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll".
+10:04:01.129 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll".
+10:04:01.130 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll".
+10:04:01.130 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll".
+10:04:01.130 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll".
+10:04:01.130 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll".
+10:04:01.131 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll".
+10:04:01.131 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll".
+10:04:01.133 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll".
+10:04:01.134 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll".
+10:04:01.135 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll".
+10:04:01.135 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll".
+10:04:01.135 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll".
+10:04:01.135 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll".
+10:04:01.136 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll".
+10:04:01.136 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll".
+10:04:01.136 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll".
+10:04:01.136 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll".
+10:04:01.136 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll".
+10:04:01.136 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll".
+10:04:01.136 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll".
+10:04:01.136 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll".
+10:04:01.137 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll".
+10:04:01.137 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll".
+10:04:01.137 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll".
+10:04:01.137 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll".
+10:04:01.137 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll".
+10:04:01.137 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll".
+10:04:01.137 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll".
+10:04:01.137 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll".
+10:04:01.137 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll".
+10:04:01.137 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll".
+10:04:01.138 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll".
+10:04:01.139 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll".
+10:04:01.139 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll".
+10:04:01.139 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll".
+10:04:01.139 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll".
+10:04:01.139 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll".
+10:04:01.139 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll".
+10:04:01.140 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll".
+10:04:01.141 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll".
+10:04:01.141 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll".
+10:04:01.141 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll".
+10:04:01.141 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll".
+10:04:01.141 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll".
+10:04:01.141 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll".
+10:04:01.142 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll".
+10:04:01.142 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll".
+10:04:01.143 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll".
+10:04:01.143 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll".
+10:04:01.143 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll".
+10:04:01.143 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/obj/Debug/net8.0/games-api.csproj.AssemblyReference.cache".
+10:04:01.143 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/obj/Debug/net8.0/games-api.GeneratedMSBuildEditorConfig.editorconfig".
+10:04:01.144 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/obj/Debug/net8.0/games-api.AssemblyInfoInputs.cache".
+10:04:01.144 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/obj/Debug/net8.0/games-api.AssemblyInfo.cs".
+10:04:01.144 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/obj/Debug/net8.0/games-api.csproj.CoreCompileInputs.cache".
+10:04:01.144 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/obj/Debug/net8.0/games-api.MvcApplicationPartsAssemblyInfo.cs".
+10:04:01.144 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/obj/Debug/net8.0/games-api.MvcApplicationPartsAssemblyInfo.cache".
+10:04:01.144 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/obj/Debug/net8.0/staticwebassets.build.json".
+10:04:01.144 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/obj/Debug/net8.0/staticwebassets/msbuild.build.games-api.props".
+10:04:01.144 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.games-api.props".
+10:04:01.144 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.games-api.props".
+10:04:01.144 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/obj/Debug/net8.0/games-api.csproj.CopyComplete".
+10:04:01.144 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/obj/Debug/net8.0/games-api.dll".
+10:04:01.145 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/obj/Debug/net8.0/refint/games-api.dll".
+10:04:01.145 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/obj/Debug/net8.0/games-api.pdb".
+10:04:01.145 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/obj/Debug/net8.0/games-api.genruntimeconfig.cache".
+10:04:01.145 | D | Clean                |          Deleting file "/home/marlon/my-projects/dotNet/solution/games-api/obj/Debug/net8.0/ref/games-api.dll".
+10:04:01.308 | D | Clean                |      3>Done Building Project "/home/marlon/my-projects/dotNet/solution/games-api/games-api.csproj" (Clean target(s)).
+10:04:01.412 | D | Clean                |      2>Done Building Project "/home/marlon/my-projects/dotNet/solution/games-api.Tests/games-api.Tests.csproj" (Clean target(s)).
+10:04:01.413 | D | Clean                |      1>Done Building Project "/home/marlon/my-projects/dotNet/solution/GamesApiProject.sln" (Clean target(s)).
+10:04:01.425 | D | Clean                | 
+10:04:01.425 | D | Clean                | Build succeeded.
+10:04:01.425 | D | Clean                |     0 Warning(s)
+10:04:01.426 | D | Clean                |     0 Error(s)
+10:04:01.427 | D | Clean                | 
+10:04:01.428 | D | Clean                | Time Elapsed 00:00:01.34
+10:04:01.459 | V | Clean                | Telemetry.OnTargetSucceeded (0)
+10:04:01.460 | V | Clean                | EventInvoker.OnTargetSucceeded (-3.4028235E+38)
+10:04:01.461 | V | Restore              | EventInvoker.OnTargetRunning (-3.4028235E+38)
+10:04:01.473 | I | Restore              | > /usr/bin/dotnet restore /home/marlon/my-projects/dotNet/solution/GamesApiProject.sln
+10:04:01.473 | V | Restore              | @ /home/marlon/my-projects/dotNet/solution
+10:04:02.238 | D | Restore              |   Determining projects to restore...
+10:04:02.777 | D | Restore              |   All projects are up-to-date for restore.
+10:04:02.814 | V | Restore              | Telemetry.OnTargetSucceeded (0)
+10:04:02.959 | V | Restore              | Sending TargetSucceeded telemetry event ...
+10:04:02.959 | V | Restore              |   build_components         = 
+10:04:02.959 | V | Restore              |   build_type               = Project
+10:04:02.959 | V | Restore              |   compile_time             = 10
+10:04:02.959 | V | Restore              |   config_generators        = 
+10:04:02.959 | V | Restore              |   host                     = VSCode
+10:04:02.959 | V | Restore              |   num_custom_components    = 0
+10:04:02.959 | V | Restore              |   num_custom_extensions    = 0
+10:04:02.959 | V | Restore              |   num_partitioned_targets  = 0
+10:04:02.959 | V | Restore              |   num_secrets              = 0
+10:04:02.959 | V | Restore              |   num_targets              = 4
+10:04:02.959 | V | Restore              |   os_architecture          = X64
+10:04:02.959 | V | Restore              |   os_platform              = Linux
+10:04:02.959 | V | Restore              |   target_current_partition = 1
+10:04:02.959 | V | Restore              |   target_duration          = 1
+10:04:02.960 | V | Restore              |   target_framework         = .NETCoreApp,Version=v8.0
+10:04:02.960 | V | Restore              |   target_name              = Restore
+10:04:02.960 | V | Restore              |   target_total_partitions  = 1
+10:04:02.960 | V | Restore              |   version_dotnet_sdk       = 8.0.108
+10:04:02.960 | V | Restore              |   version_nuke_common      = 8.1.0
+10:04:02.960 | V | Restore              |   version_nuke_global_tool = 8.1.0
+10:04:03.196 | V | Restore              | EventInvoker.OnTargetSucceeded (-3.4028235E+38)
+10:04:03.197 | V | RunApi               | EventInvoker.OnTargetRunning (-3.4028235E+38)
+10:04:03.201 | I | RunApi               | > /usr/bin/dotnet run --project /home/marlon/my-projects/dotNet/solution/games-api/games-api.csproj
+10:04:03.201 | V | RunApi               | @ /home/marlon/my-projects/dotNet/solution
+10:04:03.358 | D | RunApi               | Building...
+10:04:08.304 | D | RunApi               | info: Microsoft.Hosting.Lifetime[14]
+10:04:08.304 | D | RunApi               |       Now listening on: http://localhost:5202
+10:04:08.306 | D | RunApi               | info: Microsoft.Hosting.Lifetime[0]
+10:04:08.306 | D | RunApi               |       Application started. Press Ctrl+C to shut down.
+10:04:08.307 | D | RunApi               | info: Microsoft.Hosting.Lifetime[0]
+10:04:08.307 | D | RunApi               |       Hosting environment: Development
+10:04:08.307 | D | RunApi               | info: Microsoft.Hosting.Lifetime[0]
+10:04:08.307 | D | RunApi               |       Content root path: /home/marlon/my-projects/dotNet/solution/games-api

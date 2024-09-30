@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "games-api", "games-api\games-api.csproj", "{35A21AC5-8FB7-495D-BECF-A815E630FA48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "games-api.Tests", "games-api.Tests\games-api.Tests.csproj", "{394BA708-FCF9-4B17-80EE-FCE69475DA05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "games-api-project", "build\games-api-project.csproj", "{57BEA78A-FFE5-4535-A929-E9FF762456BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57BEA78A-FFE5-4535-A929-E9FF762456BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57BEA78A-FFE5-4535-A929-E9FF762456BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A21AC5-8FB7-495D-BECF-A815E630FA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A21AC5-8FB7-495D-BECF-A815E630FA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A21AC5-8FB7-495D-BECF-A815E630FA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A21AC5-8FB7-495D-BECF-A815E630FA48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394BA708-FCF9-4B17-80EE-FCE69475DA05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394BA708-FCF9-4B17-80EE-FCE69475DA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394BA708-FCF9-4B17-80EE-FCE69475DA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394BA708-FCF9-4B17-80EE-FCE69475DA05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
